@@ -1,4 +1,4 @@
-# Unreal Engine 5 Shooter Game Demo
+# Unreal Engine 5 Shooting Game
 
 The Unreal Engine Shooter Game demo with quality-of-life improvements. Improvements are licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
