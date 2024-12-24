@@ -29,7 +29,7 @@ Prebuilt binary packages for Linux and Windows are available on the [GitHub Rele
    # git clone git@github.com:EpicGames/UnrealEngine.git
    cd UnrealEngine
    # checkout target engine version
-   git checkout 4.26.0-release
+   git checkout 5.2.1-release
    ```
 
 2. Run initial engine setup:
