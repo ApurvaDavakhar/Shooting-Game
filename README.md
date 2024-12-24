@@ -14,10 +14,6 @@ The Unreal Engine Shooter Game demo with quality-of-life improvements. Improveme
 
 `-timeout`: Exit benchmark after the specified number of seconds. Default: 60
 
-## Releases
-
-Prebuilt binary packages for Linux and Windows are available on the [GitHub Releases page](https://github.com/cqcallaw/shootergame/releases).
-
 ## Linux Build Setup
 
 1. Clone Unreal Engine 5 from source:
@@ -49,7 +45,7 @@ Prebuilt binary packages for Linux and Windows are available on the [GitHub Rele
    git clone https://github.com/cqcallaw/shootergame.git
    ```
 
-4. [Generate project files](https://www.ue4community.wiki/Legacy/Building_On_Linux#Generating_project_files_for_your_project):
+4. [Generate project files](https://www.ue5community.wiki/Legacy/Building_On_Linux#Generating_project_files_for_your_project):
 
    ```bash
    ~/src/UnrealEngine/GenerateProjectFiles.sh -project ~/src/shootergame/ShooterGame.uproject -game -engine
@@ -61,10 +57,10 @@ Prebuilt binary packages for Linux and Windows are available on the [GitHub Rele
    ~/src/UnrealEngine/Engine/Build/BatchFiles/Linux/RunMono.sh ~/src/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Linux -Project ~/src/shootergame/ShooterGame.uproject -TargetType=Editor -Progress
    ```
 
-6. [Open the project in UEd](https://www.ue4community.wiki/Legacy/Building_On_Linux#Opening_your_project):
+6. [Open the project in UEd](https://www.ue5community.wiki/Legacy/Building_On_Linux#Opening_your_project):
 
    ```bash
-   ~/src/UnrealEngine/Engine/Binaries/Linux/UE4Editor ~/src/shootergame/ShooterGame.uproject
+   ~/src/UnrealEngine/Engine/Binaries/Linux/UE5Editor ~/src/shootergame/ShooterGame.uproject
    ```
 
 ## Windows Build Setup
