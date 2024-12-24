@@ -1,4 +1,4 @@
-# Unreal Engine 4 Shooter Game Demo
+# Unreal Engine 5 Shooter Game Demo
 
 The Unreal Engine Shooter Game demo with quality-of-life improvements. Improvements are licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
@@ -20,7 +20,7 @@ Prebuilt binary packages for Linux and Windows are available on the [GitHub Rele
 
 ## Linux Build Setup
 
-1. Clone Unreal Engine 4 from source:
+1. Clone Unreal Engine 5 from source:
 
    ```bash
    mkdir -p ~/src && cd src
@@ -70,7 +70,7 @@ Prebuilt binary packages for Linux and Windows are available on the [GitHub Rele
 ## Windows Build Setup
 
 1. [Setup Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html) (the Community edition works)
-2. Download and launch Unreal Engine 4
+2. Download and launch Unreal Engine 5
 3. Clone the ShooterGame project (Git LFS is required; Github Desktop works well)
 4. Open the ShooterGame.uproject project
 5. Click File->Generate Visual Studio Solution
